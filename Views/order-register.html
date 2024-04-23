@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/global.css">
+    <!-- <link rel="stylesheet" href="/styles/bootstrap.css"> -->
+    <link rel="stylesheet" href="/Styles/registration.css">
+    <!-- <link rel="stylesheet" href="/styles/style.css"> -->
+    <title>Cadastro de pedidos</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <!-- <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-4">
+                  <h5 class="text-white h4">Teste</h5>
+                  <span class="text-muted"></span>
+                </div>
+              </div>
+              <nav class="navbar navbar-light bg-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+              </nav> -->
+        </div>
+    </header>
+    <section>
+        <div class="header-request">
+            <div class="logo">
+                <img src="/img/logo.PNG" alt="">
+            </div>
+
+            <div class="header-title">
+                <img src="/img/request.png" alt="">
+                <h1>Cadastros de pedidos</h1>
+            </div>
+        </div>
+        <div class="group2">
+            <div class="input-group2">
+
+                <div class="select">
+                    <label for="options-view-button">Pedidos</label>
+                    <div id="category-select">
+                        <input type="checkbox" id="options-view-button">
+
+                        <div id="select-button">
+                            <div id="selected-value"> Selecione um pedido</div>
+
+                            <div id="chevrons">
+                                <i data-lucide="chevron-down"></i>
+                                <i data-lucide="chevron-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul id="option">
+
+                        <li class="option">
+                            <input type="radio" name="pedido" value="bakery1" data-label="pedido 1">
+                            <span class="label"> 1- Pedido</span>
+                            <i data-lucide="check"></i>
+                        </li>
+
+                        <li class="option">
+                            <input type="radio" name="pedido" value="bakery2" data-label="pedido 2">
+                            <span class="label"> 2- Pedido</span>
+                            <i data-lucide="check"></i>
+                        </li>
+
+                        <li class="option">
+                            <input type="radio" name="pedido" value="bakery3" data-label="pedido 3">
+                            <span class="label"> 3- Pedido</span>
+                            <i data-lucide="check"></i>
+                        </li>
+
+                        <li class="option">
+                            <input type="radio" name="pedido" value="bakery4" data-label="pedido 4">
+                            <span class="label"> 4- Pedido</span>
+                            <i data-lucide="check"></i>
+                        </li>
+
+                    </ul>
+                </div>
+
+            <div class="input-box">
+                <label for="measures">Medidas</label>
+                <input type="measures" type="number" name="measures" placeholder="Digite a medida">
+            </div>
+            <div class="input-box">
+                <label for="measures">Valor</label>
+                <input type="measures" type="number" name="measures" placeholder="Digite o valor">
+            </div>
+            <div class="input-box">
+                <label for="measures">Quantidade</label>
+                <input type="measures" type="number" name="measures" placeholder="Digite a quantidade">
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="mannequin1">
+        <img src="/img/mannequin1.png" alt="">
+    </div>
+    <div class="continue-button">
+        <button><a href="#">Excluir</a></button>
+        <button><a href="#">Salvar</a></button>
+        <button><a href="#">Sair</a></button>
+    </div>
+
+    </section>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="/Controllers/bootstrap.js"></script>
+    <script src="/Controllers/controler.js"></script>
+</body>
+
+</html>
